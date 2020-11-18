@@ -1,0 +1,28 @@
+{
+  "name": "books-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "keywords": [],
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "exports": "0.0.1",
+    "express": "*",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "*",
+    "nodemon": "^2.0.3",
+    "passport": "*",
+    "passport-jwt": "*",
+    "path": "^0.12.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
